@@ -1,0 +1,38 @@
+Algoritmo: obetener el segundo elemento de una pila, dejando la pila sin sus dos primeros elementos
+
+S=pila asignada
+I=segundo elemento de la pila
+If(!empty(s)){
+
+Pop(s)
+}
+If(!empty(s)){
+I=peek(s)
+Pop(s)
+}
+
+Imprimir I 
+
+Fin del logaritmo
+
+
+
+EJERCICIO 2:
+
+Algoritmo2: obtener el segundo elemento de la pila, sin modificar la pila
+
+S=pila asignada
+A= aux para elemento 1 de la pila
+I=segundo elemento de la pila
+If(!empty(s)){
+A=peek(s)
+Pop(s)
+}
+If(!empty(s)){
+I=peek(s)
+
+}
+
+Push(A,s)
+
+Fin del logaritmo
