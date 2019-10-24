@@ -19,7 +19,7 @@ Orden solicitarOrden(){
     cout << "Revuelta: "; cin >> p.Rev;
     cout << "Frijol con queso: ";   cin >> p.FconQ;
     cout << "Queso: "; cin >> p.Q;
-    cout << "Masa: \n\t 1)Arroz \n\t 2)Maiz \n La Opción es: "; cin >> masa;
+    cout << "Masa: \n\t 1)Arroz \n\t 2)Maiz \n La OpciÃ³n es: "; cin >> masa;
     
     if(masa==1){
         p.arroz=true;
